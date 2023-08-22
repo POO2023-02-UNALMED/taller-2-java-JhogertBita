@@ -21,11 +21,11 @@ public class Auto {
     String verificarIntegridad() {
       boolean verificar=true;
       if (motor.registro!=registro){
-        verificar=false
+        verificar=false;
       }
       for(int z=0; z<asientos.length; z++){
         if(asientos[z]!=null && asientos[z].registro!=registro){
-          verificar=false
+          verificar=false;
             break;
         }
       }
